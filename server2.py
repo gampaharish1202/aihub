@@ -8,7 +8,7 @@ API_ENDPOINT_MAIN = "https://apidata.globaldata.com/GlobalDataAIHub/api/Content/
 API_ENDPOINT_SOURCE_DATA = "https://apidata.globaldata.com/GlobalDataAIHub/api/Content/GetAIHubAPISourceData"
 
 AUTH_HEADER = {
-    "Authorization": "bearer 8eW2w2fE80Rd2a2Z499Sqs8zN8XmbJFJlNiaOBWoXFan9XrTajkQCYcy-5BzOAcquHHbYpiU-X34lcn3sf1T9VMqbx8hMj6QvLFni_-WhOYsSbQAtNyYiOjtdJtGmdtZPiI6Dgf_anJskc7uBh3vXKQSrfJzSdCmdWn6xLMSNc7qTLI_rLwp3UqjgiJYYYSZ_EyjABQqdW-pbPXPN04etgJOue2JP6EAzGFlK2noUVUL64uufY8me7sjnO3yxHoKZdkzBVZ_5pXUDIcbSBnuhAw9TH0n67solaowHZBxptMA9eEosk2S-7Z2q9RjybuIV9CPksX6aZCcxrJq_xoDSl39utzNMsnDCcb0ZRz9zVE",
+    "Authorization": "bearer K1FuArhS8QlcaCi23bcXk_9yl0vQYiaiUgvjPusFJ1KunHIsDdosFy6HSCdfrkMC8e4peyJyYwT24vCvKlPrQUuGPTjoAzclhLmtoTTc5Pjcu3vGMsXSkUTR_Yc05EZdTny5mNIzYjLSQ1d00oO_a3S4diHaX_kgQDMaxJWmtUZ4vhNjWYD6SlF5VDUAQjkTDWNL-Hs6Z4uCsRqydw5ybHhSUnG_2gRJsab0kyYy0qiNjBadcnQ49E5yWu-95bGMV0HlSgMYCwsxBpKgf3tuy9yLsKHQOzVoP-bsnUKLKnhGHUWPeOqXcxYo-jATXFzAGfZNZh3vpnlG67BjiveK_tyS8k2wFfSR-SzTnS-UL_Y",
     "Accept": "application/json"
 }
 
@@ -69,3 +69,4 @@ def GetAIHubAPISourceData(question: str, source_type: str, chunk_size: int, date
 # Start MCP server
 if __name__ == "__main__":
     mcp.run(transport="streamable-http")
+
